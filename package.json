@@ -8,8 +8,7 @@
     "server": "nodemon --watch src --ext ts --exec \"npx tsx src/server.ts\"",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "vercel-build": "echo hello"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@mantine/carousel": "^7.13.3",
