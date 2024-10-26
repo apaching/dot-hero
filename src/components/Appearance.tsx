@@ -10,7 +10,7 @@ interface Props {
 
 const Appearance: React.FC<Props> = ({ hero }) => {
   return (
-    <div className="flex w-full flex-col space-y-10 px-2">
+    <div className="flex w-full flex-col space-y-8 px-2">
       <div className="flex w-full flex-row justify-between">
         <div className="flex flex-row items-center">
           <FaStar color="#EC5162" size={20} />
