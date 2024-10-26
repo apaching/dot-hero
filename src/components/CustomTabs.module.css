@@ -1,0 +1,28 @@
+.tab {
+  transition: transform 0.2s ease; /* Smooth transition for the transform */
+  display: inline-flex; /* Make the tab an inline-flex container */
+  align-items: center; /* Center the items vertically */
+}
+
+.tab:hover {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.tab p {
+  transition: transform 0.2s ease; /* Smooth transition for the text scaling */
+}
+
+.tab:hover p {
+  transform: scale(1.1); /* Slightly increase the size of the text on hover */
+  color: #fff; /* Change text color on hover */
+}
+
+/* Optional: Add styles for the active tab */
+.tab[data-active] p {
+  color: #ec5162; /* Active tab color */
+  font-weight: bolder;
+}
+
+.list::before {
+  border-color: #242424; /* Color of the line underneath the tabs */
+}
